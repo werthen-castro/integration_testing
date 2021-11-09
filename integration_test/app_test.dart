@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:integration_testing/main.dart' as app;
@@ -9,6 +10,12 @@ void main() {
     testWidgets('tap on the floating action button, verify counter',
         (WidgetTester tester) async {
       app.main();
+      await tester.pumpAndSettle();
+
+      expect(find.text('Teste de integração - aqui'), findsOneWidget);
+
+      await tester.tap(find.byKey(const Key('ir-contator')));
+
       await tester.pumpAndSettle();
 
       // Verify the counter starts at 0.
