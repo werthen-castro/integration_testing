@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096944584737",
+    "project_id": "integration-testing-bede4",
+    "storage_bucket": "integration-testing-bede4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096944584737:android:c59540388babb76317bb60",
+        "android_client_info": {
+          "package_name": "br.com.wcastro.integration_testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096944584737-2qf5mrpnajq1si4f9hhdn3qd9deok2eg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4nquumneTRIG4jzpU5HfVh90Z9NXDNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096944584737-2qf5mrpnajq1si4f9hhdn3qd9deok2eg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
